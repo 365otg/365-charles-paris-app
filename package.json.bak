@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "PUBLIC_URL=/365-charles-paris-app gh-pages -d build --repo https://github.com/365otg/365-charles-paris-app.git"
+    "deploy": "PUBLIC_URL=/365-charles-paris-app gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,4 +48,3 @@
     "tailwindcss": "^3.4.3"
   }
 }
-
