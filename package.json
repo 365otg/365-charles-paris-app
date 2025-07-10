@@ -19,8 +19,7 @@
     "build": "PUBLIC_URL=/365-charles-paris-app npx react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "PUBLIC_URL=/365-charles-paris-app gh-pages -d build --repo https://github.com/365otg/365-charles-paris-app.git"
+    "deploy": "bash deploy.sh"
   },
   "eslintConfig": {
     "extends": [
